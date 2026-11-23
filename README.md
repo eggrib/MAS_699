@@ -1,6 +1,13 @@
-# MAS 699
+# MAS_699
 
-Multi-agent LLM orchestration bot for Telegram built on **Go**, **Redis**, and **Docker**, running structured iterative debates across multiple language models.
+Multi-agent orchestration Telegram bot (mas699bot) in Go with persistent state.
 
-- **Live Bot:** [@mas699bot](https://t.me/mas699bot)
-- **Portfolio:** [699718.space](https://699718.space/)
+## Overview
+- Coordinates iterative multi-model rounds and debates across LLM backends (such as Claude and DeepSeek)
+- Uses Redis for conversation and state persistence
+- Built for structured multi-perspective analysis directly from Telegram
+
+## Stack
+- **Language:** Go
+- **Storage / State:** Redis
+- **Interface:** Telegram Bot API
